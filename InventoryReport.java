@@ -16,5 +16,7 @@ public class InventoryReport {
                     System.out.println("Invalid Report Type");
             }
         }
+        // Added by [CollaboratorName]: Display total item count
+        System.out.println("Total Items in Inventory Report: " + items.length);
     }
-}
+} 
